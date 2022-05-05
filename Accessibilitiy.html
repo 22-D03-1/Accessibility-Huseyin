@@ -9,6 +9,10 @@
   <body>
     <html>
       <body>
+        <img src="" alt="">
+
+
+
         <form>
           <label for="name">Name</label> <br />
           <input type="text" class="name" placeholder="Dein Name" /> <br />
@@ -24,15 +28,20 @@
           <textarea class="nachricht" placeholder="Deine Nachricht"></textarea>
           <br />
           <br />
+          <label>
+            Stadt auswählen
           <select name="stadt">
             <option>Berlin</option>
             <option>Hamburg</option>
             <option>Köln</option>
             <option>Frankfurt</option>
           </select>
+          </label>
           <br />
           <br />
-          <input type="button" value="senden" />
+          <input type="button" value="senden" /> <br> <br>
+          <h4 id="button-label">Lösche dein Profil</h3>
+          <button aria-labelledby="button-label">Reset</button>
         </form>
       </body>
     </html>
